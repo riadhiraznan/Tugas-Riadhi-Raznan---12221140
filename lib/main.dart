@@ -133,10 +133,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Klinik APP', // 1. Menyertakan judul aplikasi
+      title: 'Klinik APP', //menentukan judul aplikasi
       debugShowCheckedModeBanner:
-          false, // 2. Menghilangkan banner debug pada aplikasi
-      home: PoliPage(), // 3. Menjadikan PoliPage sebagai halaman utama aplikasi
+          false, //menghilangkan banner debug pada aplikasi
+      home: PoliPage(), //membuat poli page menjadi halaman utama aplikasi
     );
   }
 }
